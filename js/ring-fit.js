@@ -29,8 +29,6 @@ document.getElementById('muscle-button').onclick = function() {
   var muscleButton = document.getElementById('muscle-button');
   muscleButton.parentNode.removeChild(muscleButton);
 
-  let todaySkill = "セットする"
-
   // スキルを表示する
   document.getElementById('output1').setAttribute("class", "output")
   document.getElementById('skill1').textContent = randomSkill(heart)
